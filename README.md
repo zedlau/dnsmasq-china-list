@@ -20,17 +20,21 @@ Dnsmasq-China-List 是一个 Dnsmasq 的配置文件，使用这个配置文件�
 3. 进入 Console （控制台）
 4. 输入以下命令（根据提示操作完成安装）：
 
->brew install dnsmasq
+> brew install dnsmasq
 
 ### Ubuntu/Debian ###
 
-未完待续
+> sudo apt-get install dnsmasq
 
 ### CentOS/Fedora ###
 
-未完待续
+> sudo yum -y install dnsmasq
 
 ### ArchLinux ###
+
+> sudo pacman -S dnsmasq
+
+## 配置 Dnsmasq ##
 
 未完待续
 
