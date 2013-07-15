@@ -15,7 +15,7 @@ Dnsmasq-China-List 是一个 Dnsmasq 的配置文件，使用这个配置文件�
 
 ### Mac OS X ###
 
-1. 从 App Store 下载并 Xcode 
+1. 从 App Store 下载并安装 Xcode 
 2. 安装 Homebrew (也可以用 MacPorts ，不过个人推荐 Homebrew 。注意，这两个只能选其一，否则会冲突。)
 3. 进入 Console （控制台）
 4. 输入以下命令（根据提示操作完成安装）：
