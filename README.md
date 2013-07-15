@@ -16,11 +16,13 @@ Dnsmasq-China-List 是一个 Dnsmasq 的配置文件，使用这个配置文件�
 ### Mac OS X ###
 
 1. 从 App Store 下载并 Xcode 
-2. 安装 Homebrew (也可以用 MacPorts ，不过个人推荐 Homebrew)
+2. 安装 Homebrew (也可以用 MacPorts ，不过个人推荐 Homebrew 。注意，这两个只能选其一，否则会冲突。)
 3. 进入 Console （控制台）
 4. 输入以下命令：
 
 >brew install dnsmasq
+
+5. 根据提示操作完成安装。
 
 ### Ubuntu/Debian ###
 
@@ -33,3 +35,25 @@ Dnsmasq-China-List 是一个 Dnsmasq 的配置文件，使用这个配置文件�
 ### ArchLinux ###
 
 未完待续
+
+## 自我诊断与维护 ##
+
+如果发现访问某个大陆境内网站十分缓慢，可以通过以下两个命令进行自我诊断：
+
+>dig @8.8.8.8 domain.com +short
+>
+>dig @114.114.114.114 domain.com +short
+
+如果得到的 IP 不一致，则可以将该域名添加到 server.conf 中并重启 Dnsmasq 。
+
+如：
+
+>MacPro:~ Zed$ dig @8.8.8.8 51buy.com +short
+>
+>112.64.234.138
+>
+>MacPro:~ Zed$ dig @114.114.114.114 51buy.com +short
+>
+>101.226.49.43
+
+如果方便的话也可以同时反馈到 zedlau#me.com 。
