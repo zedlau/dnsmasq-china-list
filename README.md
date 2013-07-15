@@ -8,6 +8,28 @@ Dnsmasq-China-List 是一个 Dnsmasq 的配置文件，使用这个配置文件�
 
 ## 适用的平台 ##
 
-* Ubuntu/Debian/Centos/Fedora/Archlinux 等
 * Mac OS X
+* Ubuntu/Debian/Centos/Fedora/Archlinux 等
 
+## 安装 Dnsmasq ##
+
+### Mac OS X ###
+
+1. 从 App Store 下载并 Xcode 
+2. 安装 Homebrew (也可以用 MacPorts ，不过个人推荐 Homebrew)
+3. 进入 Console （控制台）
+4. 输入以下命令：
+
+>brew install dnsmasq
+
+### Ubuntu/Debian ###
+
+未完待续
+
+### CentOS/Fedora ###
+
+未完待续
+
+### ArchLinux ###
+
+未完待续
